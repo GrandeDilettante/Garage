@@ -4,9 +4,9 @@ import com.company.interfaces.Breakable;
 import com.company.interfaces.Drivable;
 
 
-public abstract class TwoWheeled implements Breakable, Drivable {
+public abstract class TwoWheeled implements Breakable, Drivable {  // todo самокаты не ломаются, Breakable быть не должно
 
-    public TwoWheeled() {
+    public TwoWheeled() {  // todo странный конструктор, поля как инициализировать?
 
     }
 

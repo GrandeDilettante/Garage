@@ -4,11 +4,11 @@ import com.company.models.aircraft.Aircraft;
 import com.company.models.twowheeled.TwoWheeled;
 import com.company.models.vehicle.Vehicle;
 
-public class TransportService {
+public class TransportService { // todo где метод, чтобы поставить на ремонт vehicle? и пакет сервис
 
-    private Aircraft aircraft;
-    private Vehicle vehicle;
-    private TwoWheeled twoWheeled;
+    private Aircraft aircraft; // todo List
+    private Vehicle vehicle; // todo List
+    private TwoWheeled twoWheeled; // todo List
 
     public TransportService() {
 
