@@ -1,10 +1,11 @@
-package com.company.models.aircraft;
+package com.company.model.aircraft;
 
 import com.company.interfaces.Breakable;
 import com.company.interfaces.Drivable;
+import com.company.model.Transport;
 
 
-public abstract class Aircraft implements Breakable, Drivable {
+public abstract class Aircraft extends Transport implements Breakable, Drivable {
 
     public Aircraft(String serialNumber, int capacity, int maxDistance, String country) {
         this.serialNumber = serialNumber;
