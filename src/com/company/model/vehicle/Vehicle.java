@@ -1,6 +1,10 @@
-package com.company.models.vehicle;
+package com.company.model.vehicle;
 
-public abstract class Vehicle {
+import com.company.interfaces.Breakable;
+import com.company.interfaces.Drivable;
+import com.company.model.Transport;
+
+public abstract class Vehicle extends Transport implements Breakable, Drivable {
 
     public Vehicle(String vin, int horsePower, double engineVolume, String color) {
         this.vin = vin;

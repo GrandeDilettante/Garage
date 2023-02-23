@@ -1,4 +1,4 @@
-package com.company.models.twowheeled;
+package com.company.model.twowheeled;
 
 
 public class Moped extends TwoWheeled {
@@ -7,11 +7,6 @@ public class Moped extends TwoWheeled {
 
     public Moped() {
 
-    }
-
-    @Override
-    public void breakDown() {
-        System.out.println("Мопед никогда не ломается");
     }
 
     @Override

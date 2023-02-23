@@ -1,4 +1,4 @@
-package com.company.models.aircraft;
+package com.company.model.aircraft;
 
 
 public class Airplane extends Aircraft {

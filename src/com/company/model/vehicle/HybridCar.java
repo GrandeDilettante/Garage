@@ -1,16 +1,15 @@
-package com.company.models.vehicle;
+package com.company.model.vehicle;
 
 import com.company.interfaces.Breakable;
 import com.company.interfaces.Drivable;
 
+public class HybridCar extends Vehicle {
 
-public class ElectricCar extends Vehicle implements Breakable, Drivable {
+    private String hybridEngine;
 
-    private String electricEngine;
-
-    public ElectricCar(String vin, int horsePower, double engineVolume, String color, String electricEngine) {
+    public HybridCar(String vin, int horsePower, double engineVolume, String color, String hybridEngine) {
         super(vin, horsePower, engineVolume, color);
-        this.electricEngine = electricEngine;
+        this.hybridEngine = hybridEngine;
     }
 
     @Override
