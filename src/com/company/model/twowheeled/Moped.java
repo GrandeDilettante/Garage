@@ -5,7 +5,7 @@ public class Moped extends TwoWheeled {
 
     private String motor;
 
-    public Moped() {
+    public Moped() { // todo конструктор?
 
     }
 

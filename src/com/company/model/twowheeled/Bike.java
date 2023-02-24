@@ -5,7 +5,7 @@ public class Bike extends TwoWheeled {
 
     private String pedals;
 
-    public Bike() {
+    public Bike() {  // todo конструктор?
 
     }
 

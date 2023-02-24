@@ -10,7 +10,7 @@ import java.util.List;
 
 public class ParkingService {
 
-    public ParkingService() {
+    public ParkingService() {  // todo его по умолчанию джава делает, явно можно не прописывать, если у тебя нет никакого конструктора в классе, то джава по умолчанию без параметров добавляет
 
     }
 
