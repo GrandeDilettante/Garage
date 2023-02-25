@@ -6,7 +6,7 @@ import com.company.model.Transport;
 
 public abstract class TwoWheeled extends Transport implements Drivable {
 
-    private int maxSpeed;
+    private int maxSpeed; // todo конструктор?
     private int weightLimit;
     private String brand;
 
