@@ -14,13 +14,13 @@ import com.company.model.vehicle.Vehicle;
 
 public class GarageTest {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         TransportService transportService = new TransportService();
         ParkingService parkingService = new ParkingService();
 
-        Aircraft airplane = new Airplane("S-01", 180, 4500, "Australia", "2 wings");
-        Aircraft helicopter = new Helicopter("S-02", 4, 600, "Singapore", "2 helix");
+        Aircraft airplane = new Airplane("black", "S-01", 180, 4500, "Australia", "2 wings");
+        Aircraft helicopter = new Helicopter("white", "S-02", 4, 600, "Singapore", "2 helix");
         airplane.drive();
         System.out.println("Самолёт в движении");
         airplane.breakDown();
@@ -30,15 +30,15 @@ public class GarageTest {
         parkingService.add(helicopter);
         System.out.println("Вертолёт находится на стоянке");
 
-        Vehicle electricCar = new ElectricCar("S-03", 600, 3.5, "green", "electricEngine");
-        Vehicle hybridCar = new HybridCar("S-04", 400, 2.5, "green", "hybridEngine");
+        Vehicle electricCar = new ElectricCar("red", "S-03", 600, 3.5, "electricEngine");
+        Vehicle hybridCar = new HybridCar("blue", "S-04", 400, 2.5, "hybridEngine");
         parkingService.add(electricCar);
         System.out.println("Электрокар находится на стоянке");
         parkingService.add(hybridCar);
         System.out.println("Гибрид находится на стоянке");
 
-        TwoWheeled moped = new Moped();
-        TwoWheeled bike = new Bike();
+        TwoWheeled moped = new Moped("orange", 70, 120, "Specialized", "Shimano");
+        TwoWheeled bike = new Bike("pink", 30, 90, "Honda", "2 pedals");
         parkingService.add(moped);
         System.out.println("Мопед находится на стоянке");
         parkingService.add(bike);

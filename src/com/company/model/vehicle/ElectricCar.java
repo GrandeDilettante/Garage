@@ -1,15 +1,12 @@
 package com.company.model.vehicle;
 
-import com.company.interfaces.Breakable;
-import com.company.interfaces.Drivable;
-
 
 public class ElectricCar extends Vehicle {
 
     private String electricEngine;
 
-    public ElectricCar(String vin, int horsePower, double engineVolume, String color, String electricEngine) {
-        super(vin, horsePower, engineVolume, color);
+    public ElectricCar(String color, String vin, int horsePower, double engineVolume, String electricEngine) {
+        super(color, vin, horsePower, engineVolume);
         this.electricEngine = electricEngine;
     }
 

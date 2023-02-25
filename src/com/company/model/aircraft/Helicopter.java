@@ -3,8 +3,8 @@ package com.company.model.aircraft;
 
 public class Helicopter extends Aircraft {
 
-    public Helicopter(String serialNumber, int capacity, int maxDistance, String country, String helix) {
-        super(serialNumber, capacity, maxDistance, country);
+    public Helicopter(String color, String serialNumber, int capacity, int maxDistance, String country, String helix) {
+        super(color, serialNumber, capacity, maxDistance, country);
         this.helix = helix;
     }
 

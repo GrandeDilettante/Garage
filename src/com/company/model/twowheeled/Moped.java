@@ -5,8 +5,9 @@ public class Moped extends TwoWheeled {
 
     private String motor;
 
-    public Moped() {
-
+    public Moped(String color, int maxSpeed, int weightLimit, String brand, String motor) {
+        super(color, maxSpeed, weightLimit, brand);
+        this.motor = motor;
     }
 
     @Override

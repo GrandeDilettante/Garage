@@ -1,14 +1,12 @@
 package com.company.model.vehicle;
 
-import com.company.interfaces.Breakable;
-import com.company.interfaces.Drivable;
 
 public class HybridCar extends Vehicle {
 
     private String hybridEngine;
 
-    public HybridCar(String vin, int horsePower, double engineVolume, String color, String hybridEngine) {
-        super(vin, horsePower, engineVolume, color);
+    public HybridCar(String color, String vin, int horsePower, double engineVolume, String hybridEngine) {
+        super(color, vin, horsePower, engineVolume);
         this.hybridEngine = hybridEngine;
     }
 
