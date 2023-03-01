@@ -5,8 +5,8 @@ public class Bike extends TwoWheeled {
 
     private String pedals;
 
-    public Bike(String color, int maxSpeed, int weightLimit, String brand, String pedals) {
-        super(color, maxSpeed, weightLimit, brand);
+    public Bike(String color, int payment, int maxSpeed, int weightLimit, String brand, String pedals) {
+        super(color, payment, maxSpeed, weightLimit, brand);
         this.pedals = pedals;
     }
 
