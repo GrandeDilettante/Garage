@@ -34,4 +34,8 @@ public class ParkingService {
         transports.add(transport);
         transport.setPayment(100);
     }
+
+    public List<Transport> getTransports() {
+        return transports;
+    }
 }

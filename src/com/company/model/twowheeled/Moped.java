@@ -5,8 +5,8 @@ public class Moped extends TwoWheeled {
 
     private String motor;
 
-    public Moped(String color, int payment, int maxSpeed, int weightLimit, String brand, String motor) {
-        super(color, payment, maxSpeed, weightLimit, brand);
+    public Moped(String color, int maxSpeed, int weightLimit, String brand, String motor) {
+        super(color, maxSpeed, weightLimit, brand);
         this.motor = motor;
     }
 

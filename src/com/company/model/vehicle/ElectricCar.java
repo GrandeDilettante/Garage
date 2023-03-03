@@ -5,8 +5,8 @@ public class ElectricCar extends Vehicle {
 
     private String electricEngine;
 
-    public ElectricCar(String color, int payment, String vin, int horsePower, double engineVolume, String electricEngine) {
-        super(color,payment, vin, horsePower, engineVolume);
+    public ElectricCar(String color, String vin, int horsePower, double engineVolume, String electricEngine) {
+        super(color, vin, horsePower, engineVolume);
         this.electricEngine = electricEngine;
     }
 
