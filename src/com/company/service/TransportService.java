@@ -10,7 +10,7 @@ import java.util.List;
 
 public class TransportService {
 
-    ParkingService parkingService = new ParkingService();
+    ParkingService parkingService = ParkingService.getInstance();
 
     private List<Aircraft> aircrafts = new ArrayList<>();
     private List<Vehicle> vehicles = new ArrayList<>();

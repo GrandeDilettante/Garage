@@ -10,6 +10,15 @@ import java.util.List;
 
 public class ParkingService {
 
+    private static final ParkingService uniqueInstance = new ParkingService();
+
+    private ParkingService() {
+    }
+
+    public static ParkingService getInstance() {
+        return uniqueInstance;
+    }
+
     private List<Aircraft> aircrafts = new ArrayList<>();
     private List<Vehicle> vehicles = new ArrayList<>();
     private List<TwoWheeled> twoWheeleds = new ArrayList<>();
