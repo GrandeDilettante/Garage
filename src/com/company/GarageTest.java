@@ -47,5 +47,14 @@ public class GarageTest {
 
         Thread myThread = new Worker();
         myThread.start();
+
+        String a = "Roma";
+        String b = new String("Roma");
+        String с = "Matvey";
+
+        StringComparator stringComparator = new StringComparator();
+
+        System.out.println(stringComparator.stringCompare(a, b));
+        System.out.println(stringComparator.stringCompare(b, с));
     }
 }
