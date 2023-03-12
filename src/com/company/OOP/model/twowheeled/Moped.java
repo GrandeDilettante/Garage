@@ -1,4 +1,4 @@
-package com.company.model.twowheeled;
+package com.company.OOP.model.twowheeled;
 
 
 public class Moped extends TwoWheeled {

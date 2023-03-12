@@ -1,13 +1,13 @@
-package com.company.model.vehicle;
+package com.company.OOP.model.vehicle;
 
 
-public class ElectricCar extends Vehicle {
+public class HybridCar extends Vehicle {
 
-    private String electricEngine;
+    private String hybridEngine;
 
-    public ElectricCar(String color, String vin, int horsePower, double engineVolume, String electricEngine) {
+    public HybridCar(String color, String vin, int horsePower, double engineVolume, String hybridEngine) {
         super(color, vin, horsePower, engineVolume);
-        this.electricEngine = electricEngine;
+        this.hybridEngine = hybridEngine;
     }
 
     @Override

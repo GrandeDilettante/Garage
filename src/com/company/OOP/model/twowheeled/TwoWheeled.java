@@ -1,7 +1,7 @@
-package com.company.model.twowheeled;
+package com.company.OOP.model.twowheeled;
 
-import com.company.interfaces.Drivable;
-import com.company.model.Transport;
+import com.company.OOP.interfaces.Drivable;
+import com.company.OOP.model.Transport;
 
 
 public abstract class TwoWheeled extends Transport implements Drivable {

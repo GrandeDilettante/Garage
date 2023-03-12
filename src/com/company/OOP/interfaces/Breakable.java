@@ -1,4 +1,4 @@
-package com.company.interfaces;
+package com.company.OOP.interfaces;
 
 
 public interface Breakable {

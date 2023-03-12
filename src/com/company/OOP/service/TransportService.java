@@ -1,9 +1,9 @@
-package com.company.service;
+package com.company.OOP.service;
 
-import com.company.model.Transport;
-import com.company.model.aircraft.Aircraft;
-import com.company.model.twowheeled.TwoWheeled;
-import com.company.model.vehicle.Vehicle;
+import com.company.OOP.model.Transport;
+import com.company.OOP.model.aircraft.Aircraft;
+import com.company.OOP.model.twowheeled.TwoWheeled;
+import com.company.OOP.model.vehicle.Vehicle;
 
 import java.util.ArrayList;
 import java.util.List;

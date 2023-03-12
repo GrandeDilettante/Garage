@@ -1,8 +1,8 @@
-package com.company.model.aircraft;
+package com.company.OOP.model.aircraft;
 
-import com.company.interfaces.Breakable;
-import com.company.interfaces.Drivable;
-import com.company.model.Transport;
+import com.company.OOP.interfaces.Breakable;
+import com.company.OOP.interfaces.Drivable;
+import com.company.OOP.model.Transport;
 
 
 public abstract class Aircraft extends Transport implements Breakable, Drivable {

@@ -1,8 +1,8 @@
-package com.company.model.vehicle;
+package com.company.OOP.model.vehicle;
 
-import com.company.interfaces.Breakable;
-import com.company.interfaces.Drivable;
-import com.company.model.Transport;
+import com.company.OOP.interfaces.Breakable;
+import com.company.OOP.interfaces.Drivable;
+import com.company.OOP.model.Transport;
 
 public abstract class Vehicle extends Transport implements Breakable, Drivable {
 

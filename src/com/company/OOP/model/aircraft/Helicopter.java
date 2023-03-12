@@ -1,4 +1,4 @@
-package com.company.model.aircraft;
+package com.company.OOP.model.aircraft;
 
 
 public class Helicopter extends Aircraft {

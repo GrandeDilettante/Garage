@@ -1,4 +1,4 @@
-package com.company.model;
+package com.company.OOP.model;
 
 
 public abstract class Transport {

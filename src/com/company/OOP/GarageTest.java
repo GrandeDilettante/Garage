@@ -1,18 +1,16 @@
-package com.company;
+package com.company.OOP;
 
-import com.company.service.ParkingService;
-import com.company.service.TransportService;
-import com.company.model.aircraft.Aircraft;
-import com.company.model.aircraft.Airplane;
-import com.company.model.aircraft.Helicopter;
-import com.company.model.twowheeled.Bike;
-import com.company.model.twowheeled.Moped;
-import com.company.model.twowheeled.TwoWheeled;
-import com.company.model.vehicle.ElectricCar;
-import com.company.model.vehicle.HybridCar;
-import com.company.model.vehicle.Vehicle;
-
-import java.time.LocalDateTime;
+import com.company.OOP.service.ParkingService;
+import com.company.OOP.service.TransportService;
+import com.company.OOP.model.aircraft.Aircraft;
+import com.company.OOP.model.aircraft.Airplane;
+import com.company.OOP.model.aircraft.Helicopter;
+import com.company.OOP.model.twowheeled.Bike;
+import com.company.OOP.model.twowheeled.Moped;
+import com.company.OOP.model.twowheeled.TwoWheeled;
+import com.company.OOP.model.vehicle.ElectricCar;
+import com.company.OOP.model.vehicle.HybridCar;
+import com.company.OOP.model.vehicle.Vehicle;
 
 public class GarageTest {
 
@@ -52,9 +50,7 @@ public class GarageTest {
         String b = new String("Roma");
         String с = "Matvey";
 
-        StringComparator stringComparator = new StringComparator();
-
-        System.out.println(stringComparator.stringCompare(a, b));
-        System.out.println(stringComparator.stringCompare(b, с));
+        System.out.println(StringComparator.stringCompare(a, b));
+        System.out.println(StringComparator.stringCompare(b, с));
     }
 }

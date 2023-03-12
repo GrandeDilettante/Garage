@@ -1,8 +1,8 @@
-package com.company;
+package com.company.OOP;
 
 
-import com.company.model.Transport;
-import com.company.service.ParkingService;
+import com.company.OOP.model.Transport;
+import com.company.OOP.service.ParkingService;
 
 public class Worker extends Thread {
 
