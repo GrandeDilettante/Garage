@@ -52,9 +52,7 @@ public class GarageTest {
         String b = new String("Roma");
         String с = "Matvey";
 
-        StringComparator stringComparator = new StringComparator();
-
-        System.out.println(stringComparator.stringCompare(a, b));
-        System.out.println(stringComparator.stringCompare(b, с));
+        System.out.println(StringComparator.stringCompare(a, b));
+        System.out.println(StringComparator.stringCompare(b, с));
     }
 }
