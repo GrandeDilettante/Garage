@@ -2,7 +2,7 @@ package com.company.multithreading;
 
 import java.util.concurrent.Semaphore;
 
-public class Worker2 extends Thread {
+public class Worker2 extends Thread {  // todo 3 одинаковых класса, передать время как параметр и оставить 1 класс воркера
     Semaphore semaphore;
 
     Worker2(Semaphore semaphore) {
