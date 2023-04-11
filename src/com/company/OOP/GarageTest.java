@@ -43,7 +43,7 @@ public class GarageTest {
         ParkingService.getInstance().add(bike);
         System.out.println("Велосипед находится на стоянке");
 
-        Thread myThread = new Worker();
+        Thread myThread = new ParkingWorker();
         myThread.start();
 
         String a = "Roma";

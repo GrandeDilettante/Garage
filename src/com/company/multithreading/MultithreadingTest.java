@@ -1,22 +1,18 @@
 package com.company.multithreading;
 
-import java.util.concurrent.Semaphore;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class MultithreadingTest {
-    public static void main(String[] args) throws InterruptedException {
-        // появилась идея сделать через семафор, но нет уверенности насколько праивльно я его реализовал
-        Semaphore semaphore = new Semaphore(1, true);
-        Thread myThread1 = new Worker1(semaphore);
-        myThread1.start();
-        Thread myThread2 = new Worker2(semaphore);
-        myThread2.start();
-        Thread myThread3 = new Worker3(semaphore);
-        myThread3.start();
+    public static void main(String[] args) {
 
-        myThread1.join();
-        myThread2.join();
-        myThread3.join();
+        Lock lock = new ReentrantLock();
+        new Worker1("Worker 1", 1000, lock);
+        new Worker1("Worker 2", 2000, lock);
+        new Worker1("Worker 3", 3000, lock);
 
-        System.out.println(SynchronizedCollection.getInstance().stringList);
+        new Worker2("Worker 4", 1000);
+        new Worker2("Worker 5", 2000);
+        new Worker2("Worker 6", 3000);
     }
 }

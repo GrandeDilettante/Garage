@@ -4,7 +4,7 @@ package com.company.OOP;
 import com.company.OOP.model.Transport;
 import com.company.OOP.service.ParkingService;
 
-public class Worker extends Thread {
+public class ParkingWorker extends Thread {
 
     @Override
     public void run() {
@@ -19,4 +19,3 @@ public class Worker extends Thread {
         }
     }
 }
-

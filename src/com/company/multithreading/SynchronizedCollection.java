@@ -14,5 +14,14 @@ public class SynchronizedCollection {
         return uniqueInstance;
     }
 
-    List<String> stringList = new ArrayList<>(); // todo нарушил инкапсуляцию
+    private List<String> namesList = new ArrayList<>();
+    private List<String> students = new ArrayList<>();
+
+    public List<String> getNamesList() {
+        return namesList;
+    }
+
+    public List<String> getStudents() {
+        return students;
+    }
 }
